@@ -1,0 +1,229 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff}
+.page{width:1024px;height:1024px;background:#f7f1e3;color:#1a1a1a;font-family:Georgia,'Times New Roman','DejaVu Serif',serif;padding:20px 24px 14px;overflow:hidden}
+.topbar{display:flex;justify-content:space-between;font-family:Arial,Helvetica,'DejaVu Sans',sans-serif;font-size:9px;letter-spacing:2px;color:#5a5346;border-bottom:1px solid #1a1a1a;padding-bottom:5px}
+h1{font-size:62px;line-height:1;text-align:center;letter-spacing:4px;font-weight:900;margin:8px 0 2px}
+.dateline{text-align:center;font-family:Arial,Helvetica,'DejaVu Sans',sans-serif;font-size:10px;letter-spacing:2.5px;color:#333;border-bottom:3px double #1a1a1a;padding-bottom:7px}
+.subhead{display:flex;gap:14px;margin:9px 0;border-bottom:1px solid #1a1a1a;padding-bottom:8px}
+.subhead .sh{flex:1;font-size:11.5px;line-height:1.3}
+.subhead .sh b{color:#a31212}
+.subhead .sh .n{display:inline-block;background:#a31212;color:#fff;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;padding:1px 5px;margin-right:4px;border-radius:2px}
+.tabs{display:flex;gap:6px;margin-bottom:9px}
+.tab{flex:1;text-align:center;font-family:Arial,Helvetica,'DejaVu Sans',sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:5px 0;background:#1a1a1a;color:#f7f1e3;border-radius:2px}
+.tab span{color:#f2c94c}
+.leads{display:flex;gap:14px;border-bottom:1px solid #1a1a1a;padding-bottom:10px;margin-bottom:10px}
+.lead{flex:1}
+.lead .art{width:100%;height:118px;background:#e8e0cc;border:1px solid #b8ac8e;display:block}
+.lead h2{font-size:14.5px;line-height:1.25;margin:6px 0 3px}
+.lead h2 .n{color:#a31212}
+.lead p{font-size:10.5px;line-height:1.35;color:#2b2b2b}
+.lead .src{font-family:Arial,sans-serif;font-size:8.5px;color:#6a5f4a;margin-top:3px;letter-spacing:.5px}
+.smalls{display:grid;grid-template-columns:repeat(5,1fr);gap:10px 12px;border-bottom:1px solid #1a1a1a;padding-bottom:9px;margin-bottom:10px}
+.small .art{width:100%;height:44px;background:#e8e0cc;border:1px solid #b8ac8e;display:block}
+.small h3{font-size:10.5px;line-height:1.2;margin:4px 0 2px}
+.small h3 .n{color:#a31212}
+.small p{font-size:8.5px;line-height:1.3;color:#2b2b2b}
+.small .src{font-family:Arial,sans-serif;font-size:7.5px;color:#6a5f4a;margin-top:2px}
+.lower{display:flex;gap:14px;margin-bottom:9px}
+.mapbox{width:330px;flex:none}
+.mapbox h4,.alsobox h4{font-family:Arial,sans-serif;font-size:10px;letter-spacing:2px;border-bottom:2px solid #1a1a1a;padding-bottom:3px;margin-bottom:5px}
+.mapbox .map{width:330px;height:196px;background:#cfe0ea;border:1px solid #8aa5b5;display:block}
+.mapkeys{font-size:8.5px;line-height:1.5;color:#2b2b2b;margin-top:4px}
+.mapkeys b{color:#a31212}
+.alsobox{flex:1}
+.also-cols{display:flex;gap:16px}
+.also-col{flex:1}
+.brief{font-size:9px;line-height:1.35;margin-bottom:4.5px}
+.brief b{color:#a31212}
+.brief .pl{font-family:Arial,sans-serif;font-weight:bold;font-size:8px;letter-spacing:.5px}
+.brief .sr{font-family:Arial,sans-serif;font-size:7.5px;color:#6a5f4a}
+footer{border-top:3px double #1a1a1a;padding-top:6px}
+.datecheck{font-size:9px;line-height:1.4}
+.datecheck b{color:#a31212}
+.sources{font-family:Arial,sans-serif;font-size:8px;color:#6a5f4a;margin-top:4px;letter-spacing:.4px}
+</style></head><body><div class="page">
+<div class="topbar"><span>EST. 2026 &middot; WORLD EDITION</span><span>PRICE $2.50 &middot; 33 STORIES &middot; SIX REGIONS</span><span>THURSDAY EDITION</span></div>
+<h1>THE WORLD TODAY</h1>
+<div class="dateline">THURSDAY 19 NOVEMBER 2026 &nbsp;&middot;&nbsp; VOL. I &mdash; NO. 323 &nbsp;&middot;&nbsp; THE DAY, IN ONE PAGE</div>
+<div class="subhead">
+<div class="sh"><span class="n">1</span><b>Trump, Xi and Putin meet in Shenzhen</b> &mdash; first three-way summit, joint declaration on nuclear risks.</div>
+<div class="sh"><span class="n">2</span><b>World Court: Myanmar guilty of Rohingya genocide</b> &mdash; 2017 crackdown, ~10,000 killed, 730,000 fled.</div>
+<div class="sh"><span class="n">3</span><b>COP31 draft drops fossil-fuel phaseout</b> &mdash; talks in Antalya enter their final stage.</div>
+</div>
+<div class="tabs">
+<div class="tab">ASIA-PACIFIC <span>13</span></div><div class="tab">MIDDLE EAST <span>4</span></div><div class="tab">EUROPE <span>6</span></div><div class="tab">AMERICAS <span>5</span></div><div class="tab">AFRICA <span>3</span></div><div class="tab">MARKETS <span>2</span></div>
+</div>
+<div class="leads">
+<div class="lead">
+<svg class="art" viewBox="0 0 300 118" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="118" fill="#dfe9f2"/>
+<rect x="0" y="88" width="300" height="30" fill="#c9b18a"/>
+<rect x="30" y="86" width="240" height="8" fill="#8a6b45"/>
+<rect x="45" y="94" width="10" height="24" fill="#6b4f2e"/><rect x="245" y="94" width="10" height="24" fill="#6b4f2e"/>
+<circle cx="105" cy="52" r="16" fill="#f2c9a0"/><circle cx="150" cy="48" r="16" fill="#f2c9a0"/><circle cx="195" cy="52" r="16" fill="#f2c9a0"/>
+<path d="M82 88 Q105 62 128 88Z" fill="#2e4a6b"/><path d="M127 88 Q150 58 173 88Z" fill="#a31212"/><path d="M172 88 Q195 62 218 88Z" fill="#3a3a6b"/>
+<rect x="28" y="10" width="46" height="28" fill="#b22234"/><rect x="28" y="10" width="46" height="4" fill="#fff"/><rect x="28" y="18" width="46" height="4" fill="#fff"/><rect x="28" y="26" width="46" height="4" fill="#fff"/><rect x="28" y="34" width="46" height="4" fill="#fff"/><rect x="28" y="10" width="18" height="15" fill="#3c3b6e"/>
+<rect x="127" y="10" width="46" height="28" fill="#de2910"/><circle cx="138" cy="20" r="4" fill="#ffde00"/><circle cx="152" cy="16" r="2" fill="#ffde00"/><circle cx="158" cy="24" r="2" fill="#ffde00"/>
+<rect x="226" y="10" width="46" height="28" fill="#fff" stroke="#999" stroke-width="1"/><rect x="226" y="10" width="46" height="9" fill="#fff"/><rect x="226" y="19" width="46" height="10" fill="#0039a6"/><rect x="226" y="29" width="46" height="9" fill="#d52b1e"/>
+<text x="150" y="112" text-anchor="middle" font-family="Arial" font-size="9" fill="#5a5346">SHENZHEN &middot; APEC SIDELINES</text>
+</svg>
+<h2><span class="n">1&nbsp;</span>Trump, Xi and Putin hold first three-way summit in Shenzhen</h2>
+<p>On the APEC sidelines, the three leaders sign a joint declaration on nuclear risks and energy flows &mdash; with no mention of Ukraine or Iran.</p>
+<div class="src">REUTERS &middot; AP &middot; XINHUA</div>
+</div>
+<div class="lead">
+<svg class="art" viewBox="0 0 300 118" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="118" fill="#e9e2cf"/>
+<polygon points="150,8 262,44 38,44" fill="#8a7a52"/><rect x="52" y="44" width="196" height="8" fill="#6b5d3e"/>
+<rect x="62" y="52" width="12" height="46" fill="#f4efe0" stroke="#8a7a52"/><rect x="108" y="52" width="12" height="46" fill="#f4efe0" stroke="#8a7a52"/><rect x="180" y="52" width="12" height="46" fill="#f4efe0" stroke="#8a7a52"/><rect x="226" y="52" width="12" height="46" fill="#f4efe0" stroke="#8a7a52"/>
+<rect x="38" y="98" width="224" height="5" fill="#6b5d3e"/>
+<circle cx="150" cy="26" r="7" fill="#f2c94c"/>
+<line x1="150" y1="60" x2="150" y2="86" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="122" y1="60" x2="178" y2="60" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M122 60 L112 76 L132 76 Z" fill="#a31212"/><path d="M178 60 L168 76 L188 76 Z" fill="#a31212"/>
+<rect x="104" y="76" width="92" height="5" fill="#1a1a1a"/><rect x="146" y="81" width="8" height="7" fill="#1a1a1a"/>
+<text x="150" y="112" text-anchor="middle" font-family="Arial" font-size="9" fill="#5a5346">THE HAGUE &middot; INTERNATIONAL COURT OF JUSTICE</text>
+</svg>
+<h2><span class="n">2&nbsp;</span>World Court rules Myanmar committed genocide against the Rohingya</h2>
+<p>The ICJ finds the 2017 crackdown genocidal &mdash; about 10,000 killed, 730,000 fled &mdash; and orders investigations, compensation and return of the displaced.</p>
+<div class="src">UN NEWS &middot; BBC &middot; AL JAZEERA</div>
+</div>
+<div class="lead">
+<svg class="art" viewBox="0 0 300 118" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="118" fill="#fde8c8"/>
+<circle cx="252" cy="26" r="18" fill="#f2c94c"/><circle cx="252" cy="26" r="24" fill="none" stroke="#f2c94c" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M40 96 Q90 30 150 62 Q210 92 262 40" fill="none" stroke="#2e7d6b" stroke-width="3"/>
+<circle cx="90" cy="52" r="12" fill="#2e7d6b"/><circle cx="150" cy="62" r="12" fill="#2e7d6b"/><circle cx="210" cy="76" r="12" fill="#2e7d6b"/>
+<rect x="28" y="66" width="10" height="42" fill="#fff" stroke="#a31212" stroke-width="2"/><rect x="28" y="66" width="10" height="14" fill="#a31212"/>
+<rect x="48" y="60" width="18" height="48" fill="#fff" stroke="#a31212" stroke-width="2"/><rect x="48" y="60" width="18" height="26" fill="#a31212"/>
+<circle cx="37" cy="58" r="5" fill="#a31212"/><circle cx="57" cy="52" r="5" fill="#a31212"/>
+<text x="150" y="112" text-anchor="middle" font-family="Arial" font-size="9" fill="#5a5346">ANTALYA &middot; COP31 &middot; FINAL STAGE</text>
+</svg>
+<h2><span class="n">3&nbsp;</span>COP31 enters final stage as draft drops fossil-fuel phaseout</h2>
+<p>In Antalya, the latest draft text removes phaseout language and cuts the $120bn adaptation aid goal, as negotiators push toward a closing deal.</p>
+<div class="src">REUTERS &middot; EURONEWS &middot; AFP</div>
+</div>
+</div>
+<div class="smalls">
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#eef3ee"/><rect x="28" y="26" width="16" height="14" fill="#2e7d6b"/><rect x="58" y="18" width="16" height="22" fill="#2e7d6b"/><rect x="88" y="10" width="16" height="30" fill="#2e7d6b"/><rect x="118" y="4" width="16" height="36" fill="#a31212"/><path d="M20 34 L60 22 L100 14 L150 4" fill="none" stroke="#1a1a1a" stroke-width="2"/><path d="M150 4 l-8 1 M150 4 l-2 8" stroke="#1a1a1a" stroke-width="2"/></svg>
+<h3><span class="n">4&nbsp;</span>Anthropic IPO raises a record ~$81.3bn</h3>
+<p>Shares priced at $83; the AI lab debuts on Nasdaq in the biggest listing of the year.</p>
+<div class="src">REUTERS &middot; BLOOMBERG</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#e8eef4"/><path d="M90 22 a5 5 0 0 1 5 5 a10 10 0 0 1 -10 10 a15 15 0 0 1 -15 -15 a20 20 0 0 1 20 -20" fill="none" stroke="#2e4a6b" stroke-width="3"/><circle cx="90" cy="22" r="4" fill="#a31212"/><path d="M20 40 l4 -6 M40 40 l4 -6 M140 40 l4 -6 M160 40 l4 -6" stroke="#2e4a6b" stroke-width="2"/></svg>
+<h3><span class="n">5&nbsp;</span>Cyclone Akvan bears down on India&rsquo;s east coast</h3>
+<p>Winds of 90&ndash;100 km/h; landfall expected Friday off Andhra Pradesh&ndash;Odisha, 200,000 in the evacuation zone.</p>
+<div class="src">AFP &middot; BBC</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#e8eef4"/><path d="M10 30 Q90 2 170 30" fill="none" stroke="#8a6b45" stroke-width="4"/><line x1="30" y1="24" x2="30" y2="34" stroke="#8a6b45" stroke-width="3"/><line x1="90" y1="14" x2="90" y2="34" stroke="#8a6b45" stroke-width="3"/><line x1="150" y1="24" x2="150" y2="34" stroke="#8a6b45" stroke-width="3"/><path d="M84 12 l12 6 -12 6 Z" fill="#a31212"/><rect y="36" width="180" height="8" fill="#7fa8c9"/></svg>
+<h3><span class="n">6&nbsp;</span>Ukraine strikes the Kerch Bridge a third time in a week</h3>
+<p>Russian strikes kill five and knock out power in several regions in reply.</p>
+<div class="src">REUTERS &middot; AP</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#f4e8dc"/><path d="M90 6 C60 6 50 26 50 32 C50 40 70 42 90 42 C110 42 130 40 130 32 C130 26 120 6 90 6Z" fill="#a31212"/><circle cx="90" cy="20" r="8" fill="#f7f1e3"/><rect x="86" y="30" width="8" height="12" fill="#1a1a1a"/><rect x="20" y="36" width="30" height="6" fill="#8a7a52"/><rect x="130" y="36" width="30" height="6" fill="#8a7a52"/></svg>
+<h3><span class="n">7&nbsp;</span>Israel launches ground operation in central Gaza</h3>
+<p>The push goes ahead despite the ceasefire, as mediators warn the truce is fraying.</p>
+<div class="src">AL JAZEERA &middot; AP</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#f4e8dc"/><path d="M30 34 L70 10 L78 18 L46 38 Z" fill="#8a7a52"/><path d="M70 10 l16 -4 -8 12 Z" fill="#a31212"/><circle cx="120" cy="18" r="10" fill="#f2c94c"/><path d="M120 4 v-2 M120 32 v2 M106 18 h-2 M134 18 h2" stroke="#f2c94c" stroke-width="2"/><path d="M140 30 l6 8 -8 2 Z" fill="#a31212"/></svg>
+<h3><span class="n">8&nbsp;</span>US strikes Iran&rsquo;s Qeshm island; Iran hits back</h3>
+<p>Tehran retaliates against Kuwait and Bahrain; Houthi forces attack Saudi Arabia.</p>
+<div class="src">AP &middot; REUTERS</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#eef0f4"/><circle cx="90" cy="22" r="7" fill="#a31212"/><ellipse cx="90" cy="22" rx="34" ry="12" fill="none" stroke="#2e4a6b" stroke-width="2"/><ellipse cx="90" cy="22" rx="34" ry="12" fill="none" stroke="#2e4a6b" stroke-width="2" transform="rotate(60 90 22)"/><ellipse cx="90" cy="22" rx="34" ry="12" fill="none" stroke="#2e4a6b" stroke-width="2" transform="rotate(120 90 22)"/></svg>
+<h3><span class="n">9&nbsp;</span>IAEA: North Korea expanded enrichment at Yongbyon</h3>
+<p>The UN nuclear watchdog reports new capacity at the Yongbyon complex.</p>
+<div class="src">REUTERS &middot; UN NEWS</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#f4e8dc"/><path d="M90 6 C80 18 68 26 68 34 C68 40 78 43 90 43 C102 43 112 40 112 34 C112 26 100 18 90 6Z" fill="#e8590c"/><path d="M90 22 C86 28 82 31 82 35 C82 38 86 40 90 40 C94 40 98 38 98 35 C98 31 94 28 90 22Z" fill="#f2c94c"/><rect x="20" y="38" width="30" height="5" fill="#8a7a52"/><rect x="130" y="38" width="30" height="5" fill="#8a7a52"/></svg>
+<h3><span class="n">10&nbsp;</span>Bangladesh unrest: four killed, Yunus home ablaze</h3>
+<p>Protests turn deadly in Dhaka; Muhammad Yunus&rsquo;s ancestral home is set on fire.</p>
+<div class="src">AFP &middot; BBC</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#dfe9f2"/><path d="M0 34 Q20 28 40 34 T80 34 T120 34 T160 34 T180 34 V44 H0 Z" fill="#3a6ea5"/><path d="M60 30 L120 30 L110 36 L70 36 Z" fill="#8a6b45"/><rect x="86" y="14" width="3" height="16" fill="#6b4f2e"/><path d="M89 14 L106 19 L89 24 Z" fill="#a31212"/></svg>
+<h3><span class="n">11&nbsp;</span>Migrant boat sinks off Senegal; dozens missing</h3>
+<p>About 100 people were aboard the vessel when it went down off the coast.</p>
+<div class="src">AP &middot; AFP</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#eef3ee"/><circle cx="90" cy="22" r="17" fill="#f2c94c" stroke="#a8842a" stroke-width="2"/><text x="90" y="29" text-anchor="middle" font-family="Georgia" font-size="20" font-weight="bold" fill="#8a6b45">&#8383;</text><path d="M20 38 l6 -4 M150 38 l6 -4" stroke="#2e7d6b" stroke-width="2"/></svg>
+<h3><span class="n">12&nbsp;</span>Bitcoin dips below $63,000</h3>
+<p>The slide deepens a weeks-long crypto rout as risk appetite fades.</p>
+<div class="src">REUTERS</div>
+</div>
+<div class="small">
+<svg class="art" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg"><rect width="180" height="44" fill="#eef0f4"/><rect x="52" y="12" width="76" height="22" rx="10" fill="#2e4a6b"/><circle cx="66" cy="23" r="6" fill="#f7f1e3"/><circle cx="114" cy="23" r="6" fill="#f7f1e3"/><rect x="84" y="18" width="12" height="4" fill="#f7f1e3"/><rect x="72" y="26" width="8" height="3" fill="#f7f1e3"/><rect x="100" y="26" width="8" height="3" fill="#f7f1e3"/><path d="M52 20 L40 16 M128 20 L140 16" stroke="#2e4a6b" stroke-width="3"/></svg>
+<h3><span class="n">13&nbsp;</span>GTA VI goes on sale after a 13-year wait</h3>
+<p>Midnight launch at $79.99; queues form at stores as the most anticipated game in a decade arrives.</p>
+<div class="src">BBC &middot; AP</div>
+</div>
+</div>
+<div class="lower">
+<div class="mapbox">
+<h4>WHERE THE NEWS HAPPENED &mdash; WORLD MAP</h4>
+<svg class="map" viewBox="0 0 330 196" xmlns="http://www.w3.org/2000/svg">
+<rect width="330" height="196" fill="#cfe0ea"/>
+<path d="M8 30 L30 14 L62 12 L92 22 L100 44 L84 66 L64 78 L40 70 L18 52 Z" fill="#e8dcc0" stroke="#b8ac8e"/>
+<path d="M66 96 L92 88 L104 108 L96 142 L78 162 L66 130 L58 108 Z" fill="#e8dcc0" stroke="#b8ac8e"/>
+<path d="M138 26 L168 16 L186 26 L180 48 L158 56 L142 44 Z" fill="#e8dcc0" stroke="#b8ac8e"/>
+<path d="M142 66 L172 60 L186 78 L180 108 L164 138 L150 118 L140 88 Z" fill="#e8dcc0" stroke="#b8ac8e"/>
+<path d="M188 20 L250 10 L300 22 L322 44 L306 66 L268 72 L222 62 L196 44 Z" fill="#e8dcc0" stroke="#b8ac8e"/>
+<path d="M252 142 L288 134 L306 148 L292 168 L258 166 Z" fill="#e8dcc0" stroke="#b8ac8e"/>
+<circle cx="276" cy="52" r="7" fill="#a31212"/><text x="276" y="55" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">1</text>
+<circle cx="152" cy="34" r="7" fill="#a31212"/><text x="152" y="37" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">2</text>
+<circle cx="176" cy="52" r="7" fill="#a31212"/><text x="176" y="55" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">3</text>
+<circle cx="228" cy="66" r="7" fill="#2e4a6b"/><text x="228" y="69" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">4</text>
+<circle cx="188" cy="34" r="7" fill="#2e4a6b"/><text x="188" y="37" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">5</text>
+<circle cx="170" cy="62" r="7" fill="#2e4a6b"/><text x="170" y="65" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">6</text>
+<circle cx="200" cy="62" r="7" fill="#2e4a6b"/><text x="200" y="65" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">7</text>
+<circle cx="272" cy="36" r="7" fill="#2e4a6b"/><text x="272" y="39" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">8</text>
+<circle cx="232" cy="56" r="7" fill="#2e4a6b"/><text x="232" y="59" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">9</text>
+<circle cx="138" cy="86" r="7" fill="#2e4a6b"/><text x="138" y="89" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#fff">10</text>
+</svg>
+<div class="mapkeys"><b>1</b> Shenzhen &nbsp;<b>2</b> The Hague &nbsp;<b>3</b> Antalya &nbsp;<b>4</b> Andhra Pradesh &nbsp;<b>5</b> Kerch &nbsp;<b>6</b> Gaza &nbsp;<b>7</b> Qeshm &nbsp;<b>8</b> Yongbyon &nbsp;<b>9</b> Dhaka &nbsp;<b>10</b> Dakar</div>
+</div>
+<div class="alsobox">
+<h4>ALSO ON THURSDAY 19 NOVEMBER 2026 &mdash; THE DAY IN BRIEF</h4>
+<div class="also-cols">
+<div class="also-col">
+<div class="brief"><span class="pl">APEC &middot;</span> Leaders adopt the Shenzhen Declaration <span class="sr">XINHUA</span></div>
+<div class="brief"><span class="pl">APEC &middot;</span> Carney wraps summit with China trade gains <span class="sr">REUTERS</span></div>
+<div class="brief"><span class="pl">WASHINGTON &middot;</span> Jeffries nominated for House Speaker <span class="sr">AP</span></div>
+<div class="brief"><span class="pl">SPACE &middot;</span> NASA Northrop Grumman CRS-25 resupply mission <span class="sr">NASA</span></div>
+<div class="brief"><span class="pl">COLOMBIA &middot;</span> Unions hold a national strike <span class="sr">REUTERS</span></div>
+<div class="brief"><span class="pl">KENYA &middot;</span> Marathon champion banned for doping <span class="sr">AFP</span></div>
+<div class="brief"><span class="pl">AUSTRALIA &middot;</span> Jobless rate hits 4.9% <span class="sr">ABC</span></div>
+<div class="brief"><span class="pl">BLACK SEA &middot;</span> LPG tanker Gas Husky sinks off Bulgaria <span class="sr">REUTERS</span></div>
+<div class="brief"><span class="pl">COPENHAGEN &middot;</span> Denmark approves Greenland security deal 109&ndash;0 <span class="sr">AFP</span></div>
+<div class="brief"><span class="pl">WASHINGTON &middot;</span> Trump asks Supreme Court to block restored protections for Venezuelan migrants <span class="sr">AP</span></div>
+</div>
+<div class="also-col">
+<div class="brief"><span class="pl">THE HAGUE &middot;</span> ICJ orders Myanmar to investigate and compensate <span class="sr">UN NEWS</span></div>
+<div class="brief"><span class="pl">ANTALYA &middot;</span> COP31 draft cuts the $120bn adaptation aid goal <span class="sr">REUTERS</span></div>
+<div class="brief"><span class="pl">SHENZHEN &middot;</span> Joint declaration on nuclear risks and energy flows <span class="sr">XINHUA</span></div>
+<div class="brief"><span class="pl">NEW DELHI &middot;</span> India evacuates 200,000 ahead of Cyclone Akvan <span class="sr">AFP</span></div>
+<div class="brief"><span class="pl">KYIV &middot;</span> Kerch Bridge hit for a third time in a week <span class="sr">REUTERS</span></div>
+<div class="brief"><span class="pl">GAZA CITY &middot;</span> Ground operation goes ahead despite ceasefire <span class="sr">AL JAZEERA</span></div>
+<div class="brief"><span class="pl">TEHRAN &middot;</span> US strikes Qeshm; Iran hits Kuwait and Bahrain; Houthis hit Saudi Arabia <span class="sr">AP</span></div>
+<div class="brief"><span class="pl">VIENNA &middot;</span> IAEA: North Korea expanded Yongbyon enrichment <span class="sr">REUTERS</span></div>
+<div class="brief"><span class="pl">DHAKA &middot;</span> Four killed in unrest; Yunus ancestral home set ablaze <span class="sr">AFP</span></div>
+<div class="brief"><span class="pl">DAKAR &middot;</span> Migrant boat sinks off Senegal; dozens missing <span class="sr">AP</span></div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="datecheck"><b>DATE CHECK &mdash;</b> Every story above was first reported on <b>Thursday 19 November 2026</b>. Left out as other days&rsquo; news: the Iranian drone interceptions over Kuwait and Bahrain (first reported Wed 18 Nov) &middot; the EU&rsquo;s proposed &euro;45bn Ukraine loan plan (18 Nov) &middot; Van Gogh&rsquo;s record $190.4m sale (18 Nov).</div>
+<div class="sources">SOURCES: REUTERS &middot; AP &middot; AFP &middot; BBC &middot; AL JAZEERA &middot; UN NEWS &middot; EURONEWS &middot; ABC &middot; RNZ &middot; XINHUA &middot; NATURE &middot; NASA &middot; BLOOMBERG &mdash; ATTRIBUTIONS AS REPORTED; THIS PAGE IS A SUMMARY, NOT THE OUTLETS&rsquo; OWN WORDS.</div>
+</footer>
+</div></body></html>
